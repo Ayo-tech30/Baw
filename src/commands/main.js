@@ -27,39 +27,84 @@ const MENU_TEXT = `
 
 ┏━「 📋 ᴍᴀɪɴ 」
 ┃ .menu | .ping | .website
-┃ .community | .afk | .help
-┃ .info | .uptime
+┃ .community
+┃ .afk
+┃ .help
+┃ .info
+┃ .uptime
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 ⚙️ ᴀᴅᴍɪɴ 」
-┃ .kick .delete .antilink
-┃ .warn .resetwarn .groupinfo
-┃ .welcome .setwelcome .leave
-┃ .setleave .promote .demote
-┃ .mute .unmute .hidetag
-┃ .tagall .activity .active
-┃ .inactive .open .close
-┃ .antism .blacklist .groupstats
+┃ .kick 
+┃ .delete 
+┃ .antilink
+┃ .warn 
+┃ .resetwarn 
+┃ .groupinfo
+┃ .welcome
+┃ .setwelcome .leave
+┃ .setleave 
+┃ .promote 
+┃ .demote
+┃ .mute 
+┃ .unmute 
+┃ .hidetag
+┃ .tagall 
+┃ .activity 
+┃ .active
+┃ .inactive 
+┃ .open 
+┃ .close
+┃ .antism 
+┃ .blacklist 
+┃ .groupstats
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 💰 ᴇᴄᴏɴᴏᴍʏ 」
-┃ .mbal .gems .pbal .daily
-┃ .withdraw .deposit .donate
-┃ .lottery .richlist .register
-┃ .profile .bio .shop .inventory
-┃ .dig .fish .beg .roast .gamble
+┃ .mbal 
+┃ .gems 
+┃ .pbal 
+┃ .daily
+┃ .withdraw 
+┃ .deposit 
+┃ .donate
+┃ .lottery 
+┃ .richlist 
+┃ .register
+┃ .profile 
+┃ .bio 
+┃ .shop 
+┃ .inventory
+┃ .dig 
+┃ .fish 
+┃ .beg 
+┃ .roast 
+┃ .gamble
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🎴 ᴄᴀʀᴅꜱ 」
-┃ .collection .deck .card
-┃ .cardinfo .cardshop .claim
-┃ .auction .stardust .vs
+┃ .collection 
+┃ .deck 
+┃ .card
+┃ .cardinfo 
+┃ .cardshop 
+┃ .claim
+┃ .auction 
+┃ .stardust 
+┃ .vs
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🎮 ɢᴀᴍᴇꜱ 」
-┃ .ttt .chess .akinator .gg
-┃ .c4 .wcg .startbattle
-┃ .truth .dare .uno
+┃ .ttt 
+┃ .chess 
+┃ .akinator 
+┃ .gg
+┃ .c4 
+┃ .wcg 
+┃ .startbattle
+┃ .truth 
+┃ .dare 
+┃ .uno
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🎲 ɢᴀᴍʙʟᴇ 」
@@ -69,40 +114,82 @@ const MENU_TEXT = `
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 👤 ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ 」
-┃ .hug .kiss .slap .wave .pat
-┃ .dance .sad .laugh .punch
-┃ .kill .lick .bonk .tickle
-┃ .fuck .kidnap .jihad .crusade
+┃ .hug 
+┃ .kiss 
+┃ .slap 
+┃ .wave 
+┃ .pat
+┃ .dance 
+┃ .sad 
+┃ .laugh 
+┃ .punch
+┃ .kill 
+┃ .lick 
+┃ .bonk 
+┃ .tickle
+┃ .fuck 
+┃ .kidnap 
+┃ .jihad 
+┃ .crusade
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🎉 ꜰᴜɴ 」
-┃ .gay .lesbian .simp .match
-┃ .ship .psize .skill .joke
-┃ .truth .dare .wyr .uno
+┃ .gay 
+┃ .lesbian 
+┃ .simp 
+┃ .match
+┃ .ship 
+┃ .psize 
+┃ .skill 
+┃ .joke
+┃ .truth 
+┃ .dare 
+┃ .wyr 
+┃ .uno
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 📲 ᴅᴏᴡɴʟᴏᴀᴅᴇʀꜱ 」
-┃ .ig .tiktok .yt .twitter
-┃ .fb .play
+┃ .ig 
+┃ .tiktok 
+┃ .yt 
+┃ .twitter
+┃ .fb 
+┃ .play
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🔍 ꜱᴇᴀʀᴄʜ 」
-┃ .pinterest .sauce .wallpaper
-┃ .image .lyrics .waifu
+┃ .pinterest 
+┃ .sauce 
+┃ .wallpaper
+┃ .image 
+┃ .lyrics .waifu
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🤖 ᴀɪ 」
-┃ .ai .gpt .generate .enhance
-┃ .translate .transcribe
+┃ .ai 
+┃ .gpt 
+┃ .generate 
+┃ .enhance
+┃ .translate 
+┃ .transcribe
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🔄 ᴄᴏɴᴠᴇʀᴛᴇʀ 」
-┃ .sticker .take .toimg .tovid
+┃ .sticker 
+┃ .take 
+┃ .toimg 
+┃ .tovid
 ┗━━━━━━━━━━━━━❥❥❥
 
 ┏━「 🌸 ᴀɴɪᴍᴇ 」
-┃ .waifu .neko .maid .oppai
-┃ .nsfw .milf .hentai .ecchi
+┃ .waifu 
+┃ .neko 
+┃ .maid 
+┃ .oppai
+┃ .nsfw 
+┃ .milf 
+┃ .hentai 
+┃ .ecchi
 ┗━━━━━━━━━━━━━❥❥❥
 `;
 
@@ -113,8 +200,8 @@ export async function handleMain(ctx) {
     case 'menu':
     case 'help': {
       const menuText = MENU_TEXT.replace('{user}', pushName);
-      const imgPath = path.join(__dirname, '../../assets/delta.jpg');
-      if (await fs.pathExists(imgPath)) {
+      const imgPath = path.join(__dirname, '../../assets/22ed309e3b7af45682d8ac0923bb4ab8.jpg');
+      if (await fs.pathExists(imgPath)) ,
         await sock.sendMessage(from, {
           image: fs.readFileSync(imgPath),
           caption: menuText,
